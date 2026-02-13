@@ -11,7 +11,7 @@ const gifStages = [
 
 const noMessages = [
     "No",
-    "Are you positive? 🤔",
+    "Are you sure, Bitė? 🤔",
     "Pookie please... 🥺",
     "If you say no, I will be really sad...",
     "I will be very sad... 😢",
@@ -41,7 +41,7 @@ const music = document.getElementById('bg-music')
 
 // Autoplay: audio starts muted (bypasses browser policy), unmute immediately
 music.muted = true
-music.volume = 0.3
+music.volume = 0.1
 music.play().then(() => {
     music.muted = false
 }).catch(() => {
